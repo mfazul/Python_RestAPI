@@ -2,7 +2,8 @@ import unittest
 import sys
 sys.path.append("/testpython/RestAPI/src")  
 import getdata
-class getdataTest(unittest.TestCase):
+
+class GetdataTest(unittest.TestCase):
 
     def test_sum(self):
         self.assertEqual(getdata.hello(), "Hello World!", "Should be get Hello World!")
